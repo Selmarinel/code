@@ -1,0 +1,9 @@
+{
+  	"order"	: 21,
+	"name": "VergoInterview",
+	"slug": "vergo_interview",
+	"namespace": "VergoInterview",
+	"version": "1.0",
+	"description": "Interview Module for [VERGO] Core",
+	"enabled": true
+}

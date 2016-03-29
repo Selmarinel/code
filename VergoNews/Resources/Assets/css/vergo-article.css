@@ -1,0 +1,219 @@
+body{
+    background-color: #fafafa;
+    font-family: "Gotham Pro";
+}
+#main{
+    background-color: #fff;
+}
+#article{
+    padding-top: 20px;
+}
+#bottom-menu{
+    margin-top: 20px;
+    background-color: #fff;
+}
+#footer{
+    background-color: #fff;
+}
+.panel{
+    margin-bottom: 0px;
+}
+.comment{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.comments-block{
+    background-color: #fff;
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.comment-textarea{
+    border: none;
+    width: 99%;
+    margin: 0 auto;
+    padding: 10px;
+    height: 90px !important;
+}
+.left-block{
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
+    /*padding-top: 30px;*/
+    /*padding-bottom: 30px;*/
+    background-color: #fff;
+    display: table;
+    border-radius: 10px;
+    width: 100%;
+}
+.right-block{
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
+    /*padding-top: 30px;*/
+    /*padding-bottom: 30px;*/
+    background-color: #fff;
+    display: table;
+    border-radius: 10px;
+    width: 100%;
+}
+.big-image{
+    display: block;
+    width: 100%;
+    margin: 0 0 0 0;
+    z-index:200;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #7b1fa2;
+    min-height: 600px;
+    position: relative;
+}
+.title_of_article{
+    color:#fff;
+    width: 100%;
+}
+.red{
+    color: #ff0000;
+}
+.title-image-a{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    padding: 15px 20px 40px 20px !important;
+    min-width: 750px;
+}
+.image-title{
+    padding-top:20px;
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0,0,0,0.1);
+}
+.article-text{
+    font-size: 20px;
+}
+.conversation .title {
+    margin: 40px 5px;
+    padding-left: 20px;
+    border-left: 2px #00ac9b solid;
+}
+.user_cover {
+    padding: 10px 0;
+    display: table;
+    width: 100%;
+}
+.user_cover .image img {
+    border-radius: 55px 55px 0;
+    width: 55px;
+    height: 55px;
+}
+.image.alt img{
+    width: 100px;
+    height: 100px;
+}
+.info,
+.image{
+    display: block;
+    float: left;
+}
+.user-ava-block{
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+.query{
+    font-size: 18px;
+    font-weight: bold;
+    display: table;
+    padding-left: 20px;
+}
+.info {
+    padding-left: 20px;
+    font-size: 12px;
+}
+.name{
+    padding-top: 10px;
+    font-weight: bold;
+    display: block;
+}
+.post{
+    color: #b0bec5;
+    font-weight: 100;
+}
+.info_ar {
+    padding: 20px 5px;
+    display: table;
+}
+.block,
+.quotation{
+    float: left;
+    display: block;
+}
+.quotation {
+    font-weight: 100;
+    font-family: Bloggersans;
+    color: #063849;
+    font-size: 18px;
+    padding: 0 20px 20px 0px;
+    text-align: center;
+}
+
+.info_ar span{
+    display: table;
+    position: relative;
+    font-size:24px;
+}
+
+.block-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@font-face {
+    font-family: FontAwesome; /* Имя шрифта */
+    src: url(../fonts/css/fonts/fontawesome-webfont.ttf); /* Путь к файлу со шрифтом */;
+}
+@font-face {
+    font-family: Caligraph; /* Имя шрифта */
+    src: url(../fonts/calligraphmedium.ttf); /* Путь к файлу со шрифтом */;
+}
+hr.star-light {
+    border-color: white;
+    width: 80%;
+}
+hr.star-light, hr.star-primary {
+    padding: 0;
+    border: none;
+    border-top: solid 1px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+    border-color: #9e9d24;
+}
+hr.star-light:after {
+    background-color: #fff;
+    color: #000;
+}
+
+hr.star-light:after, hr.star-primary:after {
+    content: ",,";
+    color: #9e9d24;
+    font-family: Caligraph;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    top: -0.4em;
+    font-size: 2.5em;
+    padding: 0 0.25em;
+    z-index: 0;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.image {
+    position: relative;
+}
+.image img {
+    width: auto;
+    margin: 0 auto;
+    max-height: 500px;
+}

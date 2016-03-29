@@ -1,0 +1,9 @@
+{
+  	"order" : 5,
+	"name": "VergoNews",
+	"slug": "vergo_news",
+	"namespace": "VergoNews",
+	"version": "1.0",
+	"description": "VergoNews Module for [VERGO] Engine",
+	"enabled": true
+}
