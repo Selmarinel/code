@@ -1,0 +1,27 @@
+{
+  "admin" : {
+    "phone"       : "53635536",
+    "name" : "Golars"
+  },
+  "model" : {
+    "first_name"  : "Golarsik",
+    "last_name"   : "Titol",
+    "surname"     : "Tito2",
+    "cover"       : "/apia",
+    "role"        : 1,
+    "email"       : "selmarinel@gmail.com",
+    "password"    : "1q2w3e4r",
+    "phone"       : "380931799574",
+    "token"       : "358e162218a6b7a0fa5b9ac85893d0ec5ddcd4dd"
+  },
+  "model2" : {
+    "first_name"  : "Golars2",
+    "last_name"   : "Tito2",
+    "surname"     : "Tito2",
+    "cover"       : "/apia",
+    "role"        : 1,
+    "email"       : "selmarinel@gmail.com",
+    "phone"       : "380931799574",
+    "password"    : "sPdioK4wys"
+  }
+}
